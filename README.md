@@ -5,6 +5,13 @@ you must have an AWS IAM role configured to your Atlas project for this work out
 
 you must also set the variables in `terraform.tfvars.template.json`/`variables.tf`
 
+## Run
+```
+terraform init
+terraform plan
+terraform apply
+```
+
 ## Aggregation
 the following is the most basic aggregation; however, the export `$out` can get *much* more complex, see [the $out docs](https://www.mongodb.com/docs/atlas/data-federation/supported-unsupported/pipeline/out/#simple-string-example) for more details.
 
