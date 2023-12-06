@@ -1,0 +1,16 @@
+{
+  "atlas": {
+    "public_key": "",
+    "private_key": "",
+    "project_id": "",
+    "s3": {
+      "bucket": "",
+      "region": ""
+    },
+    "cluster": {
+      "name": "",
+      "db_name": "",
+      "coll_name": ""
+    }
+  }
+}
